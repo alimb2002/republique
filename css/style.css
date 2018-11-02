@@ -1,0 +1,406 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#wrapper{
+  width: 100%;
+}
+#aside{
+  width: 15%;
+float: left;
+padding: 20px;
+box-sizing: border-box;
+}
+
+#aside img{
+  width: 80%;
+  padding:  10%;
+}
+#aside a{
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #aaa;
+  padding: 15px 0 0 0;
+  text-decoration: none;
+  border-bottom: 1px solid #aaa;
+
+}
+.burger{
+  display: none;
+}
+
+/*  */
+@media (min-width:1025px)  {
+.outer {
+padding-top: 120px;
+width: 80%;
+margin: auto;
+display: block;
+
+}
+
+.bg {
+text-align: center;
+width: 0%;
+transition: all 0.6s ease-out;
+
+background: black;
+  border-bottom: 1px solid black;
+}
+
+.inner {
+  text-align: left;
+display: inline-block;
+background-color: white;
+mix-blend-mode: screen;
+/* padding: 5px; */
+padding-bottom: 15px;
+width: 166px;
+}
+
+
+.outer:hover .bg {
+width: 100%;
+}
+
+}
+
+/*  */
+
+#show-case{
+  width: 85%;
+  float: left;
+}
+img{
+  width: 100%;
+
+}
+#brand{
+  display: flex;
+  width: 100%;
+  background-color: #fafafa;
+}
+#brand:after{
+  clear: both;
+  content: '';
+  display: block;
+
+}
+#business{
+  display: flex;
+float: left;
+
+  width: 100%;
+
+}
+
+.poster1{
+background: url(../images/Image_DigitalBusiness.jpg);
+background-position: center;
+background-size: cover;
+  width: 50%;
+  float: left;
+}
+.poster2{
+background: url(../images/Image_BrandDevelopment.jpg);
+background-position: center;
+  width: 50%;
+  background-size: cover;
+  float: left;
+}
+
+
+.content{
+
+  width: 50%;
+  float: left;
+}
+.content h2{
+  font-family: serif;
+  font-size: 40px;
+  text-align:left;
+  padding:50px 50px  ;
+  padding-bottom: 0px;
+}
+.content p{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  padding:30px 30px 0 50px;
+  line-height: 1.8em;
+}
+.content h4{
+  padding: 50px;
+
+
+}
+.content a{
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+    border-bottom: 2px solid black;
+}
+#touch{
+  background-color: #f3f3f3;
+padding-bottom: 60px;
+}
+#touch h2{
+  padding: 50px 0 30px 0;
+  font-family:serif;
+  text-align: center;
+  font-size: 36px;
+}
+#touch p{
+  margin : 0 32% 0 32%;
+  line-height: 1.7em;
+  color: #7c7c7c;
+}
+#touch input{
+  width: 100%;
+  border-radius: 5px;
+  margin: 0px;
+  height: 40px;
+  border:1px solid #ccc;
+}
+#touch p.sign{
+text-align: center;
+  padding-bottom: 30px;
+
+}
+#touch a{
+  font-family: sans-serif;
+  padding: 10px;
+border-bottom: 2px solid black;
+  text-decoration: none;
+  color: black;
+
+}
+footer{
+  background-color: #1a191f;
+}
+footer::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+footer .contain{
+  width:30%;
+  margin: auto;
+}
+footer ul{
+  list-style: none;
+
+}
+footer ul li{
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+  padding:20px 15px;
+}
+footer img{
+  width: 100%;
+}
+
+
+@media (max-width:1024px)  {
+  footer ul li{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    padding:20px 5px;
+  }
+  #aside{
+    width: 100%;
+    float: none;
+  }
+  #aside h2{
+    display: none;
+  }
+  .big{
+    display: none;
+  }
+  .sm{
+    display: block;
+  }
+  #show-case{
+    width: 100%;
+    float: none;
+  }
+  .burger{
+    display: block;
+    width: 100%;
+  }
+
+
+  .burger #logo-sm{
+    display: block;
+    margin: 0;
+    padding: 0;
+    float: left;
+    /* width: 50%; */
+    padding: 0;
+
+  }
+  .burger #menu-burger{
+    display: block;
+
+  float: right;
+  text-align: left;
+  padding-right: 50px;
+  }
+  .burger #menu-burger img{
+
+
+  }
+#menu{
+  display: none;
+}
+
+  .burger::after{
+    clear: both;
+    display: block;
+    content: '';
+  }
+
+  #aside a{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #aaa;
+    padding: 15px 0 0 0;
+    text-decoration: none;
+    border-bottom: 1px solid #aaa;
+    display: block;
+  }
+
+
+  /*  */
+
+  .outer {
+  padding-top: 120px;
+  width: 60%;
+  margin: auto;
+  display: block;
+float: left;
+  }
+
+  .bg {
+  text-align: center;
+  width: 90%;
+  }
+
+  .inner {
+    text-align: left;
+  display: inline-block;
+  background-color: white;
+  padding-bottom: 15px;
+  width: 100%;
+  }
+
+  .poster1{
+  background: url(../images/Image_DigitalBusiness.jpg);
+  background-position: center;
+  background-size: cover;
+    width:100%;
+    min-height: 600px;
+    float: left;
+
+  }
+
+  .poster2{
+  background: url(../images/Image_BrandDevelopment.jpg);
+  background-position: center;
+    width: 100%;
+    min-height: 600px;
+    background-size: cover;
+    float: left;
+
+  }
+
+.content{
+  width: 100%;
+  float: left;
+}
+
+.burger{
+  /* background-color: white; */
+  z-index: 10;
+  position: fixed;
+}
+#menu{
+  background-color: white;
+  margin-top: 40px;
+}
+#brand{
+  display:block;
+  width: 100%;
+  background-color: #fafafa;
+}
+#brand:after{
+  clear: both;
+  content: '';
+  display: block;
+
+}
+#business{
+display: block;
+float: left;
+
+  width: 100%;
+
+}
+#slide{
+  margin-top: 40px;
+}
+}
+
+@media (max-width:630px)  {
+  footer .contain{
+    width:60%;
+    margin: auto;
+  }
+  footer ul{
+    list-style: none;
+
+  }
+  footer ul li{
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    padding:20px 5px;
+  }
+  #touch h2{
+    padding: 50px 0 30px 0;
+    font-family:serif;
+    text-align: center;
+    font-size: 36px;
+  }
+  #touch p{
+    margin : 0 12% 0 12%;
+    line-height: 1.7em;
+    color: #7c7c7c;
+  }
+  #touch input{
+    width: 100%;
+
+    border-radius: 5px;
+    margin: 0px;
+    height: 40px;
+    border:1px solid #ccc;
+    margin-top: 10px;
+  }
+  #touch p.sign{
+  text-align: center;
+  padding-top: 10px;
+    padding-bottom: 30px;
+
+  }
+  #touch a{
+    font-family: sans-serif;
+    padding: 10px;
+  border-bottom: 2px solid black;
+    text-decoration: none;
+    color: black;
+
+  }
+}
